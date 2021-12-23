@@ -1,0 +1,29 @@
+.accordion-item{
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color:unset;
+    border-radius:0;
+    .accordion-button{
+        box-shadow: unset!important;
+        background-color:#1a1a1a;
+        color:white;
+    }
+
+    .accordion-body{
+        background-color: #1a1a1a;
+    }
+}
+
+
+.accordion-button::after {
+    content: "v";
+    width:11px;
+    font-size:1.3rem;
+    background-image: unset!important;
+    background-repeat: no-repeat;
+    transition: transform .2s ease-in-out;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}

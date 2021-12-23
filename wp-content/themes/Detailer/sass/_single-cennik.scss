@@ -1,0 +1,34 @@
+.galeria_single_cennik{
+    div{
+        div{
+            a{
+                transition: all 0.15s ease-out;
+                img{
+                    color:red;
+                    height: 410px; 
+                    width:100%; 
+                    object-fit: cover; 
+                    object-position:top;
+                    overflow:hidden;
+                    transition: transform .2s;
+                    margin: 0 auto;
+                    display: block;
+                }
+                img:hover{
+                    transform: scale(1.009);
+                    overflow: hidden!important;
+                }
+            }
+        }
+    }
+}
+.container-btn{
+    border-bottom:1px solid $color-main-3;
+}
+.task-description{
+    p{
+        text-align: left;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+}

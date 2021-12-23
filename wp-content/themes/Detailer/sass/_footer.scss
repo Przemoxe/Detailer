@@ -1,0 +1,88 @@
+footer{
+    background-color:$color-main-3;
+    .container-fluid{
+        .row{
+            
+            div{
+                h1{
+                    font-weight: 300;
+                }
+                .info{
+                    div{
+                       @media screen and (max-width: 768px) {
+                            h5{
+                               font-size:2.5rem!important;
+                               line-height: 55px;
+                               font-weight: 700;
+                           }
+                       }
+                        h5{
+                            font-size:1.5rem;
+                            color:$color-main-1;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                        }
+
+                        ul{
+                            color:white;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            list-style: none;
+                            padding: 0;
+                            a{
+                                color:white;
+                                text-decoration: none;
+                                &:hover{
+                                    color:black;
+                                }
+                            }
+
+                            li{
+                                line-height: 26px;
+                                font-weight: 500;
+                                display: block;
+                            }
+                            @media screen and (max-width: 768px) {
+                                 li{
+                                    font-size:2rem;
+                                    line-height: 55px;
+                                    font-weight: 300;
+                                }
+                            }
+
+                        }
+                    }
+                    .menu{
+                        .footer_container_menu{
+
+                            
+                            .footer_menu{
+                                list-style: none;
+                                padding: 0;
+                                font-size: 1.1rem;
+                                li{
+                                    a{
+                                        color:white;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        font-weight: 400;
+                                        line-height: 24px;
+                                        &:hover{
+                                            color: $color-main-1;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                   }   
+                }
+            }
+        }
+    }
+}
+.localization-map{
+    display: flex;
+    iframe{
+        width:100%!important;
+    }
+}
